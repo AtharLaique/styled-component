@@ -1,6 +1,7 @@
 import React from "react";
 import { Wrapper } from "../components/Wrapper";
 import {Section} from "../components/Components";
+import Buttons from "../sections/Buttons";
 
 export default function Components() {
   return (
@@ -18,9 +19,9 @@ export default function Components() {
         </Wrapper>
       </div>
       <div class="col-lg-9">
-        <p id="a">
+        <Buttons id="a">
 
-        </p>
+        </Buttons>
         <p id="b">
   
         </p>
