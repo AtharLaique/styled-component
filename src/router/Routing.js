@@ -1,8 +1,9 @@
 import React from 'react';
 import {Route ,Switch} from 'react-router-dom';
-import Images from '../pages/images';
+import GettingStarted from '../pages/GettingStarted';
 import App from '../pages/App';
 import Nav from '../components/nav';
+import Components from '../pages/Components';
 
 export default function Routing() {
     return (
@@ -11,7 +12,8 @@ export default function Routing() {
             <div>
             <Switch>
                 <Route exact path="/" component={App}/>
-                <Route path="/images" component={Images}/>
+                <Route path="/getting-started" component={GettingStarted}/>
+                <Route path="/components" component={Components}/>
             </Switch>
             </div>
         </div>

@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
 function App() {
-  console.log('App')
   return (
     <div className="App">
-      <h1 className="text-center">React Redux and Routing Boiler Plate </h1>
+      <br />
+      <h3 className="text-center">How to Style React Component</h3>
+      <br />
+      <div className="container">
+        <p>There are four different options to style React components.</p>
+        <ul style={{ listStyle: "decimal" }}>
+          <li>Global CSS files</li>
+          <li>Modular Stylesheets</li>
+          <li>Stylized Components</li>
+          <li>Javascript Stylesheets</li>
+        </ul>
+      </div>
     </div>
   );
 }
-
 export default App;
