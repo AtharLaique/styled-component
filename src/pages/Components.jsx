@@ -1,17 +1,31 @@
-import React from 'react'
+import React from "react";
+import { Wrapper } from "../components/Wrapper";
+import {Section} from "../components/Components";
 
 export default function Components() {
-    return (
+  return (
+    <div class="row">
+      <div class="col-lg-3">
+        <Wrapper>
+          <ul style={{ listStyle: "none" }}>
+            <li>
+              <Section href="#a">Button</Section>
+            </li>
+            <li>
+            <Section href="#a">Input</Section>
+            </li>
+          </ul>
+        </Wrapper>
+      </div>
+      <div class="col-lg-9">
+        <p id="a">
 
-        <div class="row">
-            <div class="col-lg-4">
-                <ul style={{listStyle:'none'}}>
-                    <li>
-                       <h6>Button</h6> 
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-8"></div>
+        </p>
+        <p id="b">
+  
+        </p>
+
+      </div>
     </div>
-    )
+  );
 }
